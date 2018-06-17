@@ -88,20 +88,25 @@ main{
   /*Locations styles*/
 .locations{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  align-content: center;
-  flex-wrap: wrap;
+  padding-bottom: 70px;
   width: 1200px;
   height: 500px;
   background-image: url(./images/img-locations-background.jpg);
 }
 
-.locationname{
-  width: 100%;
+.locations h2{
+  display: block;
+  margin-bottom: 15px;
+}
+
+.combined{
   display: flex;
-  justify-content: center;
-  height: 60px;
+  justify-content: space-around;
+  width: 980px;
+  margin-bottom: 55px;
 }
 
 .site{
@@ -109,10 +114,23 @@ main{
   height: 300px;
   width: 300px;
   text-align: center;
-  margin: 15px 40px 0px 0px;
   opacity: 1;
 }
 
 .site p{
   padding-bottom: 20px;
+}
+
+/*Footer styles*/
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.copyright{
+  text-align: left;
+  margin-top: 20px;
 }
