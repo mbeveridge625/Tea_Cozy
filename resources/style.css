@@ -6,3 +6,31 @@ body{
   background-color: black;
   opacity: 0.9;
 }
+
+/*Header Styles*/
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+}
+
+.logo img{
+  margin-left: 10px;
+  height: 50px;
+  border: 1px solid white;
+}
+
+.nav{
+  padding-right: 5px;
+}
+
+.nav a{
+  margin: 10px;
+  color: seashell;
+  text-decoration: underline;
+}
