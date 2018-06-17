@@ -22,7 +22,6 @@ header{
 .logo img{
   margin-left: 10px;
   height: 50px;
-  border: 1px solid white;
 }
 
 .nav{
@@ -33,4 +32,29 @@ header{
   margin: 10px;
   color: seashell;
   text-decoration: underline;
+}
+
+/*Main content styles*/
+
+main{
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+/*Mission styles*/
+
+.mission{
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  height: 700px;
+  background-image: url(./images/img-mission-background.jpg);
+}
+
+.content{
+  background-color: black;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
 }
